@@ -3,11 +3,8 @@
 
 
 def shell_sort(nums):
-    h = 1
     n = len(nums)
-    # knuth
-    while h < n:
-        h = h * 3 + 1
+    h = gap_definition(n)
 
     while h > 0:
         h = (h - 1) // 3
@@ -19,3 +16,11 @@ def shell_sort(nums):
                 j -= h
             nums[j] = current
     return nums
+
+
+def gap_definition(n):
+    # knuth
+    h = 1
+    while h < n:
+        h = h * 3 + 1
+    return h
