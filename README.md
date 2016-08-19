@@ -1,2 +1,4 @@
-# desafio-um-por-dia-python
-Estou me desafiando a fazer 1 algoritmo por dia em python por 1 mes
+Algoritmos de Ordenação em Python
+
+Em cada pasta tem um algoritmo e seu teste basico. E cada pasta tem um README proprio da descrição desse algoritmo de forma simplificada.
+
